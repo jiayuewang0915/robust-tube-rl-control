@@ -215,7 +215,3 @@ class DDPGAgentError:
         os.makedirs(models_path, exist_ok=True)
         torch.save(self.actor, os.path.join(models_path, self.file_name[0]))
         torch.save(self.critic, os.path.join(models_path, self.file_name[1]))
-
-
-DDPGAgent_model = DDPGAgentModel
-DDPGAgent_error = DDPGAgentError

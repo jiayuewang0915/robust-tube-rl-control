@@ -69,11 +69,3 @@ class ExperienceReplayBufferModel(ExperienceReplayBufferError):
     """Alias class for readability: model and error agents store different tuples."""
 
     pass
-
-
-# Legacy-style aliases are kept for users who compare this package with older
-# experiment notes, while the clean class names above are used by the package.
-Experience_model = ExperienceModel
-Experience_error = ExperienceError
-ExperienceReplayBuffer_model = ExperienceReplayBufferModel
-ExperienceReplayBuffer_error = ExperienceReplayBufferError

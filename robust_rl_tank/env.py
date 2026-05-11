@@ -203,6 +203,3 @@ class SphericalTank:
 
     def terminated_test(self):
         return self.terminated_model() or self.cur_state_test[0] > 2.0 * (self.radius + self.un_value_d) or self.cur_state_test[0] < 0.0
-
-
-SphericalTank_MultiAgent = SphericalTank
