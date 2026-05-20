@@ -99,3 +99,18 @@ The tests intentionally stay lightweight. They verify that the environment steps
 ## Checkpoint Format
 
 The pretrained actor files in `models/` are stored as PyTorch `state_dict` checkpoints with lightweight architecture metadata. This keeps the project portable across directory layouts and avoids relying on notebook-era import paths.
+
+## Citation
+
+If you use this repository, please cite:
+
+```bibtex
+@article{wang2025robust,
+  title = {Robust tube-based reinforcement learning control for systems with parametric uncertainty},
+  author = {Wang, Jiayue and Feyzmahdavian, Hamid Reza and Rastegarpour, Soroush and Isaksson, Alf J.},
+  journal = {European Journal of Control},
+  volume = {86},
+  pages = {101326},
+  year = {2025},
+  doi = {10.1016/j.ejcon.2025.101326}
+}
